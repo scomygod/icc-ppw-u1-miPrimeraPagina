@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+    <title>Home</title>
 </head>
 <body>
     <header>
         <figure>
             <img src="resources/cr7logo.png" alt="Logo de CR7" width="150">
         </figure>
-        <h1>Cristiano Ronaldo: Trayectoria y Legado</h1>
+        <h1 id="titulo">Cristiano Ronaldo: Trayectoria y Legado</h1>
         <h2>Una leyenda del fútbol</h2>
     </header>
     <section>
@@ -25,41 +26,47 @@
     </section>
     <section>
         <h2>Principales estadísticas en Europa</h2>
+        <button id="agregarFila">Agregar fila</button>
         <table border="1">
-            <tr>
-                <th>Año</th>
-                <th>Equipo</th>
-                <th>Goles</th>
-                <th>Asistencias</th>
-            </tr>
-            <tr>
-                <td>2003-2009</td>
-                <td>Manchester United</td>
-                <td>118</td>
-                <td>69</td>
-            </tr>
-            <tr>
-                <td>2009-2018</td>
-                <td>Real Madrid</td>
-                <td>450</td>
-                <td>131</td>
-            </tr>
-            <tr>
-                <td>2018-2021</td>
-                <td>Juventus</td>
-                <td>101</td>
-                <td>22</td>
-            </tr>
-            <tr>
-                <td>2021-2022</td>
-                <td>Manchester United</td>
-                <td>27</td>
-                <td>5</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Equipo</th>
+                    <th>Goles</th>
+                    <th>Asistencias</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2003-2009</td>
+                    <td>Manchester United</td>
+                    <td>118</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>2009-2018</td>
+                    <td>Real Madrid</td>
+                    <td>450</td>
+                    <td>131</td>
+                </tr>
+                <tr>
+                    <td>2018-2021</td>
+                    <td>Juventus</td>
+                    <td>101</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>2021-2022</td>
+                    <td>Manchester United</td>
+                    <td>27</td>
+                    <td>5</td>
+                </tr>
+            </tbody>
         </table>
     </section>
     <footer>
         <p>Adrian Lazo - Programación y Plataformas Web</p>
     </footer>
+    <script src="script.js"></script> 
 </body>
 </html>
