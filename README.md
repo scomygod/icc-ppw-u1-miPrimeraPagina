@@ -7,12 +7,12 @@
 **Asignatura:** Programación y Plataformas Web  
 **Unidad:** 1.2 – Estándares Web  
 **Estudiante:** Adrian Lazo  
-**Repositorio:** [https://github.com/AdrianLazo/icc-ppw-u1-miPrimeraPagina](https://github.com/AdrianLazo/icc-ppw-u1-miPrimeraPagina)  
-**Página desplegada (GitHub Pages):** [https://adrianlazo.github.io/icc-ppw-u1-miPrimeraPagina/](https://adrianlazo.github.io/icc-ppw-u1-miPrimeraPagina/)  
+**Repositorio:** [https://github.com/scomygod/icc-ppw-u1-miPrimeraPagina.git](https://github.com/scomygod/icc-ppw-u1-miPrimeraPagina.git)  
+**Página desplegada (GitHub Pages):** [https://scomygod.github.io/icc-ppw-u1-miPrimeraPagina/](https://scomygod.github.io/icc-ppw-u1-miPrimeraPagina/)  
 
 ---
 
-## 🧱 Estructura HTML utilizada
+## Estructura HTML utilizada
 
 | Componente | Descripción | Implementación |
 |-------------|--------------|----------------|
@@ -25,7 +25,7 @@
 
 ---
 
-## 🧩 Nuevas etiquetas exploradas
+## Nuevas etiquetas exploradas
 
 | Etiqueta | Descripción | Implementación |
 |-----------|--------------|----------------|
